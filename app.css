@@ -1,0 +1,129 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+#main_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#main_content #calc {
+  width: 400px;
+  height: 500px;
+}
+
+#main_content #calc #display {
+  width: 400px;
+  height: 100px;
+  background-color: #61605f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 80px;
+}
+
+#main_content #calc .buttons {
+  width: 400px;
+  height: 100px;
+}
+
+#main_content #calc .buttons .buttons-row {
+  width: 400px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#main_content #calc .buttons .buttons-row .button {
+  height: 100%;
+  width: calc(400px / 4);
+  background-color: #9d9d9d;
+  font-size: 30px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#main_content #calc .buttons .buttons-row .button img {
+  height: 25px;
+  width: 25px;
+}
+
+#main_content #calc .buttons .buttons-row .button:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#main_content #calc .buttons .buttons-row #sign-sowa {
+  height: 100%;
+  width: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: yellow;
+  background-color: palevioletred;
+}
+
+#main_content #calc .button-number {
+  height: 100%;
+  width: calc(400px / 4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #606060;
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+#main_content #calc .button-number:hover {
+  opacity: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+/*# sourceMappingURL=app.css.map */
